@@ -21,7 +21,7 @@ public class Lab01
 		String secret = "80"; //declare string and put "80" at the front.
 		String bitCharString = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"; //string for decimal to base58
 		String hexCharString = "0123456789ABCDEF"; //string for decimal to hex
-		String finalOutput = ""; //declare string to hold final answer. 5KZV4cAuqAwsbvUo4zR4vFAAAX2SQ4ws5YaHuVbqcyxcZvBHL962xc
+		String finalOutput = ""; //declare string to hold final answer. 
 		
 		for (int i = 0; i < 64; i++) //for loop to add 64 random numbers to secret in hex.
 		{
