@@ -1,4 +1,4 @@
-package CS211Package;
+package CS211;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
