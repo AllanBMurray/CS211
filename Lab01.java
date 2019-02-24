@@ -2,11 +2,8 @@ package CS211;
 
 import java.util.*;
 
-<<<<<<< HEAD
+
 public class Lab01 
-=======
-public class Lab02 
->>>>>>> c9419443578de06625bd20d809ec8ecfa3a91a04
 {
 	public static void main (String [] args)
 	{
