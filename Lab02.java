@@ -70,15 +70,11 @@ class Node {
     	this.smallestLetter = sl;
     }
     
-    Node(){ //no-arg constructor for nodes above the leaves.
+    Node(){ //no-arg constructor for nodes "above the leaves".
     	
     }
 
 } // end class Node
-
-
-
-
 
 class Tree implements Comparable < Tree > {
     public Node root; // first node of tree
