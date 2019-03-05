@@ -27,6 +27,7 @@ public class Lab03 {
 
 	public static boolean compareStrings(String a, String b)
 	{ //compares two strings, first by greatest contained letter (by ASCII code) and then alphabetically.
+	  //returns true if a comes before b in list.
 		char greatestA = (char)0; //variable to hold greatest char in a. Set at minimum value.
 		for (int i = 0; i < a.length(); i++)
 		{
@@ -36,10 +37,10 @@ public class Lab03 {
 			}
 		}
 		boolean flag = false; //flag to record if a char in b is equal to greatest char in a.
-		for (int i = 0; i < b.length(); i++)
+		for (int i = 0; i < b.length(); i++) //compare each char in b to greatest char in a.
 		{
 			if ((int)b.charAt(i)>greatestA)
-			{ //if b has a char with a greater value than any in the greatest in a immediately return false.
+			{ //if b has a char with a greater value than the greatest in a, return false.
 				return false;
 			}
 			else if ((int)b.charAt(i)==greatestA) //set flag to true.
