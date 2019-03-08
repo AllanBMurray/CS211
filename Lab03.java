@@ -22,7 +22,7 @@ public class Lab03 {
 		*/
 		recQuickSort(0, listSize-1, theArray); //start sorting.
 		printWords(theArray); //print the sorted words. 
-		printArray(theArray); //print the sorted array.
+		//printArray(theArray); //print the sorted array.
 	}
 
 	public static boolean compareStrings(String a, String b)
@@ -153,7 +153,7 @@ public class Lab03 {
 	
 	public static void printWords(String[] arr)
 	{ //method to print out array one word at a time.
-		for (int i = 0; i < arr.length-1; i++)
+		for (int i = 0; i < arr.length; i++)
 		{
 			System.out.println(arr[i]);
 		}
