@@ -11,10 +11,10 @@ public class Lab10
 22.67147680211382
 (65,39,68,49,22,4,45,93,81,94,89,29,100,18,90,83,48,43,46,37,76,34,77,92,3,64,70,56,40,1,73,8,42,26,30,88,15,97,51,11,67,61,66,19,44,99,84,41,6,91,60,23,16,71,7,31,21,36,79,10,62,75,54,38,27,24,32,86,35,17,55,2,50,52,82,13,53,28,20,87,63,69,95,12,25,96,72,47,80,5,58,14,98,33,59,9,74,57,85,78)
 */
-		//set the number of trials.
-		int noOfTrials = 10000000;
+	//set the number of trials.
+	int noOfTrials = 10000000;
 		
-		FileIO reader = new FileIO();
+	FileIO reader = new FileIO();
         Scanner scan = new Scanner(System.in);
         //text file with location data
         String[] inputs = reader.load("X:\\CS211eclipse\\CS211\\src\\CS211\\burritodata.txt");
