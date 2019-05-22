@@ -16,13 +16,10 @@ public class Lab06 {
         
         for (long i = 1; i < p; i++)
         {
-        	//System.out.println(i);
         	if (modPow(g,i,p) == gxmp)
         	{
-        		//System.out.println("private key: "+i);
         		long cp1x = modPow(gymp, p-1-i, p);
-        		//System.out.println(cp1x);
-        		long answer = (modPow((cp1x*27),1,p));
+        		long answer = (modPow((cp1x*mgxymp),1,p));
         		System.out.println("Alice's Private Key: "+i);
         		System.out.println("The message is: "+answer);
         		break;
